@@ -1,0 +1,325 @@
+-----------------------  Set 1 R---10 Edge Servers---0.7 fairness index---100 Users  ----------------------
+
+EAD Model
+averageUsers = 100.0
+averageCost = 8.55
+averagefairnessdegree = 0.9764628288748657
+averagefairnessefficiency = 0.11539955855089304
+average_ALL_benefits = 1.9010000000000002
+average_benefitefficiency = 0.22406845238095235
+averageExecutionTime = 0.03450000000000002
+
+NearOptimal Model
+averageUsers = 100.0
+averageCost = 8.7
+averagefairnessdegree = 0.9792513503347153
+averagefairnessefficiency = 0.11337679683807478
+average_ALL_benefits = 1.9135000000000002
+average_benefitefficiency = 0.22113690476190473
+averageExecutionTime = 0.0028000000000000013
+
+Greedy Connection Model
+averageUsers = 100.0
+averageCost = 9.9
+averagefairnessdegree = 0.9981624375456128
+averagefairnessefficiency = 0.10090693750506811
+average_ALL_benefits = 1.9925000000000002
+average_benefitefficiency = 0.20138888888888892
+averageExecutionTime = 0.0
+
+Greedy Covered Users Model
+averageUsers = 100.0
+averageCost = 9.7
+averagefairnessdegree = 0.9970309278350514
+averagefairnessefficiency = 0.10300343642611684
+average_ALL_benefits = 1.9880000000000002
+average_benefitefficiency = 0.20533333333333337
+averageExecutionTime = 0.0
+
+LiuICWS Model
+averageUsers = 100.0
+averageCost = 10.0
+averagefairnessdegree = 1.0
+averagefairnessefficiency = 0.10000000000000002
+average_ALL_benefits = 1.0
+average_benefitefficiency = 0.10000000000000002
+averageExecutionTime = 0.012800000000000006
+
+Random Model
+averageUsers = 100.0
+averageCost = 9.65
+averagefairnessdegree = 0.9921138809733208
+averagefairnessefficiency = 0.1030126534414801
+average_ALL_benefits = 1.9675
+average_benefitefficiency = 0.2041666666666667
+averageExecutionTime = 1.0E-4
+
+HGA Model
+averageUsers = NaN
+averageCost = NaN
+averagefairnessdegree = NaN
+averagefairnessefficiency = NaN
+average_ALL_benefits = NaN
+average_benefitefficiency = NaN
+averageExecutionTime = NaN
+
+-----------------------  Set 1 R---15 Edge Servers---0.7 fairness index---100 Users  ----------------------
+
+EAD Model
+averageUsers = 100.0
+averageCost = 8.4
+averagefairnessdegree = 0.9688967064134142
+averagefairnessefficiency = 0.11780903030610626
+average_ALL_benefits = 1.8645
+average_benefitefficiency = 0.22532738095238095
+averageExecutionTime = 0.025150000000000013
+
+NearOptimal Model
+averageUsers = 100.0
+averageCost = 8.7
+averagefairnessdegree = 0.9768359672913143
+averagefairnessefficiency = 0.11388741774014452
+average_ALL_benefits = 1.902
+average_benefitefficiency = 0.22101289682539688
+averageExecutionTime = 0.009800000000000005
+
+Greedy Connection Model
+averageUsers = 100.0
+averageCost = 12.55
+averagefairnessdegree = 0.9914505866920094
+averagefairnessefficiency = 0.08001234804677071
+average_ALL_benefits = 1.964
+average_benefitefficiency = 0.15819832667332662
+averageExecutionTime = 0.0
+
+Greedy Covered Users Model
+averageUsers = 100.0
+averageCost = 9.85
+averagefairnessdegree = 0.9985154639175258
+averagefairnessefficiency = 0.10150171821305845
+average_ALL_benefits = 1.9940000000000002
+average_benefitefficiency = 0.20266666666666672
+averageExecutionTime = 0.0
+
+LiuICWS Model
+averageUsers = 100.0
+averageCost = 10.0
+averagefairnessdegree = 1.0
+averagefairnessefficiency = 0.10000000000000002
+average_ALL_benefits = 1.0
+average_benefitefficiency = 0.10000000000000002
+averageExecutionTime = 0.016950000000000003
+
+Random Model
+averageUsers = 100.0
+averageCost = 13.5
+averagefairnessdegree = 0.9844642719330153
+averagefairnessefficiency = 0.07367751907454399
+average_ALL_benefits = 1.9315000000000002
+average_benefitefficiency = 0.2041666666666667
+averageExecutionTime = 0.0
+
+HGA Model
+averageUsers = NaN
+averageCost = NaN
+averagefairnessdegree = NaN
+averagefairnessefficiency = NaN
+average_ALL_benefits = NaN
+average_benefitefficiency = NaN
+averageExecutionTime = NaN
+
+-----------------------  Set 1 R---20 Edge Servers---0.7 fairness index---100 Users  ----------------------
+
+EAD Model
+averageUsers = 100.0
+averageCost = 8.65
+averagefairnessdegree = 0.9667083537638168
+averagefairnessefficiency = 0.11299973684189517
+average_ALL_benefits = 1.8575
+average_benefitefficiency = 0.2164920634920635
+averageExecutionTime = 0.03320000000000001
+
+NearOptimal Model
+averageUsers = 100.0
+averageCost = 9.1
+averagefairnessdegree = 0.9848323788733412
+averagefairnessefficiency = 0.10896495818075311
+average_ALL_benefits = 1.9374999999999996
+average_benefitefficiency = 0.2141309523809524
+averageExecutionTime = 0.025450000000000007
+
+Greedy Connection Model
+averageUsers = 100.0
+averageCost = 15.65
+averagefairnessdegree = 0.9814706173136797
+averagefairnessefficiency = 0.06308871212670371
+average_ALL_benefits = 1.92
+average_benefitefficiency = 0.12326235257260801
+averageExecutionTime = 0.0
+
+Greedy Covered Users Model
+averageUsers = 100.0
+averageCost = 9.75
+averagefairnessdegree = 0.9975367405132705
+averagefairnessefficiency = 0.10262937778752654
+average_ALL_benefits = 1.9900000000000002
+average_benefitefficiency = 0.20466666666666672
+averageExecutionTime = 0.0
+
+LiuICWS Model
+averageUsers = 100.0
+averageCost = 10.0
+averagefairnessdegree = 1.0
+averagefairnessefficiency = 0.10000000000000002
+average_ALL_benefits = 1.0
+average_benefitefficiency = 0.10000000000000002
+averageExecutionTime = 0.019250000000000003
+
+Random Model
+averageUsers = 100.0
+averageCost = 18.05
+averagefairnessdegree = 0.9870621027413609
+averagefairnessefficiency = 0.055322559293968884
+average_ALL_benefits = 1.9460000000000002
+average_benefitefficiency = 0.2041666666666667
+averageExecutionTime = 0.0
+
+HGA Model
+averageUsers = NaN
+averageCost = NaN
+averagefairnessdegree = NaN
+averagefairnessefficiency = NaN
+average_ALL_benefits = NaN
+average_benefitefficiency = NaN
+averageExecutionTime = NaN
+
+-----------------------  Set 1 R---25 Edge Servers---0.7 fairness index---100 Users  ----------------------
+
+EAD Model
+averageUsers = 100.0
+averageCost = 8.35
+averagefairnessdegree = 0.9595172442787859
+averagefairnessefficiency = 0.11586101475628081
+average_ALL_benefits = 1.8239999999999998
+average_benefitefficiency = 0.21958829365079363
+averageExecutionTime = 0.03330000000000001
+
+NearOptimal Model
+averageUsers = 100.0
+averageCost = 9.0
+averagefairnessdegree = 0.9838968280486775
+averagefairnessefficiency = 0.10977800394582662
+average_ALL_benefits = 1.9335
+average_benefitefficiency = 0.21552777777777782
+averageExecutionTime = 0.08055
+
+Greedy Connection Model
+averageUsers = 100.0
+averageCost = 17.8
+averagefairnessdegree = 0.97426710628711
+averagefairnessefficiency = 0.05616249377395769
+average_ALL_benefits = 1.8860000000000003
+average_benefitefficiency = 0.10795911500565136
+averageExecutionTime = 0.0
+
+Greedy Covered Users Model
+averageUsers = 100.0
+averageCost = 9.75
+averagefairnessdegree = 0.9975257731958763
+averagefairnessefficiency = 0.10250286368843071
+average_ALL_benefits = 1.9900000000000002
+average_benefitefficiency = 0.20444444444444448
+averageExecutionTime = 0.0
+
+LiuICWS Model
+averageUsers = 100.0
+averageCost = 10.0
+averagefairnessdegree = 1.0
+averagefairnessefficiency = 0.10000000000000002
+average_ALL_benefits = 1.0
+average_benefitefficiency = 0.10000000000000002
+averageExecutionTime = 0.014800000000000002
+
+Random Model
+averageUsers = 100.0
+averageCost = 21.25
+averagefairnessdegree = 0.9796361352178458
+averagefairnessefficiency = 0.04657213185623168
+average_ALL_benefits = 1.9140000000000001
+average_benefitefficiency = 0.2041666666666667
+averageExecutionTime = 0.0
+
+HGA Model
+averageUsers = NaN
+averageCost = NaN
+averagefairnessdegree = NaN
+averagefairnessefficiency = NaN
+average_ALL_benefits = NaN
+average_benefitefficiency = NaN
+averageExecutionTime = NaN
+
+-----------------------  Set 1 R---30 Edge Servers---0.7 fairness index---100 Users  ----------------------
+
+EAD Model
+averageUsers = 100.0
+averageCost = 8.45
+averagefairnessdegree = 0.968515881927926
+averagefairnessefficiency = 0.1159872288836534
+average_ALL_benefits = 1.8645
+average_benefitefficiency = 0.2224543650793651
+averageExecutionTime = 0.03580000000000001
+
+NearOptimal Model
+averageUsers = 100.0
+averageCost = 9.0
+averagefairnessdegree = 0.9866864797501226
+averagefairnessefficiency = 0.11023535097506174
+average_ALL_benefits = 1.9455000000000002
+average_benefitefficiency = 0.21718055555555554
+averageExecutionTime = 0.19435000000000002
+
+Greedy Connection Model
+averageUsers = 100.0
+averageCost = 22.2
+averagefairnessdegree = 0.9816366288305947
+averagefairnessefficiency = 0.04500056918353121
+average_ALL_benefits = 1.9204999999999999
+average_benefitefficiency = 0.087705589354285
+averageExecutionTime = 0.0
+
+Greedy Covered Users Model
+averageUsers = 100.0
+averageCost = 9.6
+averagefairnessdegree = 0.9960522044307961
+averagefairnessefficiency = 0.10413109600058494
+average_ALL_benefits = 1.984
+average_benefitefficiency = 0.20733333333333337
+averageExecutionTime = 0.0
+
+LiuICWS Model
+averageUsers = 100.0
+averageCost = 10.0
+averagefairnessdegree = 1.0
+averagefairnessefficiency = 0.10000000000000002
+average_ALL_benefits = 1.0
+average_benefitefficiency = 0.10000000000000002
+averageExecutionTime = 0.014100000000000001
+
+Random Model
+averageUsers = 100.0
+averageCost = 25.55
+averagefairnessdegree = 0.9737141843928139
+averagefairnessefficiency = 0.03877909561595835
+average_ALL_benefits = 1.886
+average_benefitefficiency = 0.2041666666666667
+averageExecutionTime = 0.0
+
+HGA Model
+averageUsers = NaN
+averageCost = NaN
+averagefairnessdegree = NaN
+averagefairnessefficiency = NaN
+average_ALL_benefits = NaN
+average_benefitefficiency = NaN
+averageExecutionTime = NaN
+
