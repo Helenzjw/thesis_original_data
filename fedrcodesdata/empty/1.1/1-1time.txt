@@ -1,0 +1,96 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.ticker as mtick
+from matplotlib.ticker import ScalarFormatter
+
+nSetSize = 8
+dSetSize = 8
+fSetSize = 8
+
+nX= np.arange(nSetSize)
+dX= np.arange(dSetSize)
+fX= np.arange(fSetSize)
+
+fig = plt.figure(figsize=(10, 8), dpi=72, facecolor="white")
+ax = plt.subplot(111)
+
+nGroup_labels = ['6', '8', '10', '12', '14', '16', '18', '20']
+dGroup_labels = ['16', '32', '64', '128', '256','512','1024','2048']
+fGroup_labels = ['10','20', '30', '40', '50', '60','70','80']
+
+markers = ['^', 'X', 'o', 'p', 's', '\']
+
+
+params = {'legend.fontsize': 25,
+          'legend.handlelength': 1.1}
+plt.rcParams.update(params)
+
+total_width, n = 1.5, 11
+width = total_width / n
+x = np.arange(nSetSize)
+
+Opt = (452,	890,	1430	,2280	,3710,	5450,	6800,	7990)
+FEUAGame = (10.74709263,	11.68332145	,14.49137675,	15.19868415,	16.76305461,	18.04161855	,18.8348082,	20.13703057)
+MEDAGame = (10.74709263,	12.20655562,	14.91643389	,15.74404649,	15.8311402,	18.38477631	,18.97366596,	20.22251219
+)
+TPDSGame = (10.60070752	,11.66190379,	14.31782106,	14.94991639	,15.15750639	,17.98610575,	18.1590198,	19.97998999
+)
+Greedy = (2.5,	2.738612788	,2.90473751,	3.010398645,	3.16227766,	3.240370349	,3.259601203,	3.446012188
+)
+Random = (0.559016994	,0.661437828	,0.968245837,	0.968245837,	1.118033989,	1.25,	1.274754878	,1.369306394
+)
+
+
+plt.plot(nGroup_labels, Opt,  label = 'FEDR-OPT', marker = 'o',  markersize = '35', color = '#FFC0CB', markerfacecolor='none',   linestyle='--', linewidth='5')
+plt.plot(nGroup_labels, FEUAGame,  label = 'FairEDR', marker = 'h',  markersize = '35', color = '#F33D3C', markerfacecolor='none',   linestyle='--', linewidth='5')
+plt.plot(nGroup_labels, MEDAGame, label = 'TMC2022', marker = 'v',  markersize = '35', color = '#F37A5E', markerfacecolor='none',linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, TPDSGame, label = 'TPDS2022', marker = '+',  markersize = '35',  color = '#ABBF63', markerfacecolor='none',linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, Greedy, label = 'Greedy', marker = 'p',  markersize = '35', color = '#82C9D9',markerfacecolor='none', linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, Random , label = 'Random ', marker = 'x',  markersize = '35',  color = '#401219', markerfacecolor='none', linestyle='-.', linewidth='5')
+
+# 启用纵坐标的科学计数法
+ax.yaxis.set_major_formatter(ScalarFormatter(useMathText=True))
+
+# 设置科学计数法样式
+ax.yaxis.get_major_formatter().set_powerlimits((0, 0))
+
+plt.xticks(x, nGroup_labels, rotation=0)
+
+# cost: 1 - 17 (n), 1 - 7 (d)
+# benefit per replica: 10 - 40, 30 - 150, 20 - 80(d)  10 - 25, 20 - 120, 20 - 45 (n)
+# execution time: 0 - 5(n)   0 - 0.05(d)
+
+# x lables: The number of edge servers           Edge density
+# y labels: Execution Time (s)      Benefits per replica     The cost of caching data
+
+#plt.ylim(0.05, 0.275)
+
+# 启用纵坐标的科学计数法
+ax.yaxis.set_major_formatter(ScalarFormatter(useMathText=True))
+
+# 设置科学计数法样式
+ax.yaxis.get_major_formatter().set_powerlimits((0, 0))
+#plt.ylim(0.05, 0.275)
+
+plt.xlabel(u"Number of Physical Machines (l)", fontsize=35)
+plt.ylabel(u"Computation Overhead (ms)", fontsize=30)
+
+plt.tick_params(labelsize=40)
+
+plt.legend(loc = 'upper left')
+
+plt.tight_layout()
+plt.grid(True)
+plt.tight_layout()
+
+foo_fig = plt.gcf()
+foo_fig.savefig('C:\\figures\\1-1time.eps',
+                format='eps', dpi=1000)
+
+
+plt.show()
+
+
+
+
+

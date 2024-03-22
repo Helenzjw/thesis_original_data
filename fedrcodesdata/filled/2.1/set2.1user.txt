@@ -1,0 +1,93 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.ticker as mtick
+
+nSetSize = 8
+dSetSize = 8
+fSetSize = 8
+
+nX= np.arange(nSetSize)
+dX= np.arange(dSetSize)
+fX= np.arange(fSetSize)
+
+fig = plt.figure(figsize=(10, 8), dpi=72, facecolor="white")
+ax = plt.subplot(111)
+nGroup_labels = ['50', '100', '150', '200', '250','300', '350', '400']
+dGroup_labels = ['16', '32', '64', '128', '256','512','1024','2048']
+fGroup_labels = ['10','20', '30', '40', '50', '60','70','80']
+
+markers = ['^', 'X', 'o', 'p', 's','\']
+
+#plt.plot(nGroup_labels , label = 'FEUA-OPT', marker = '^', color = '#FFCD00FF', linestyle='--')
+#plt.plot(nGroup_labels , label = 'FEUAGame', marker = 'X', color = '#CC0C00FF', linestyle='-')
+#plt.plot(nGroup_labels, label = 'MEDAGame', marker = 'o', color = '#84BD00FF', linestyle='-.')
+#plt.plot(nGroup_labels, label = 'TPDSGame', marker = 'p', color = '#5C88DAFF', linestyle=';')
+#plt.plot(nGroup_labels, label = 'Greedy', marker = 's', color = '#00B5E2FF', linestyle=',,')
+#plt.plot(nGroup_labels, label = 'Random', marker = '\', color = '#7C878EFF', linestyle='+')
+
+params = {'legend.fontsize': 25,
+          'legend.handlelength': 1.1}
+plt.rcParams.update(params)
+
+total_width, n = 1.5, 11
+width = total_width / n
+x = np.arange(nSetSize)
+
+FEUAGame = (0.225,	0.4453125,	0.618359375,	0.812109375,	0.845703125,	0.911328125	,0.94765625,	0.976953125)
+MEDAGame = (0.226171875,	0.441015625,	0.6125,	0.8078125,	0.83671875,	0.89921875,	0.9359375,	0.96796875
+)
+TPDSGame = (0.225390625	,0.438671875,	0.60390625,	0.794140625	,0.832421875	,0.89921875,	0.934375,	0.96640625
+)
+Greedy = (0.226953125,	0.441796875,	0.609375,	0.7875,	0.827734375,	0.8828125,	0.932421875,	0.962890625
+)
+Random = (0.2078125,	0.3953125,	0.521875	,0.6546875,	0.705078125,	0.75625	,0.808984375,	0.84453125
+)
+
+
+#plt.bar(x - 1.5 * width, FEUAGame, width=width, color='#F33D3C',  label = 'FEDRGame', edgecolor=['k']*len(x), hatch='')
+#plt.bar(x - 0.5 * width, MEDAGame, width=width, color='#F37A5E', label = 'TMC2022', edgecolor=['k']*len(x), hatch='')
+#plt.bar(x + 0.5* width,TPDSGame, width=width, label='#ABBF63',  color='#5C88DAFF', edgecolor=['k']*len(x), hatch='')
+#plt.bar(x + 1.5 * width , Greedy, width=width, color='#82C9D9', label =  'Greedy', edgecolor=['k']*len(x), hatch='')
+#plt.bar(x + 2.5* width, Random,  width=width, label= '#401219', color='#7C878EFF', edgecolor=['k']*len(x), hatch='')
+plt.plot(nGroup_labels, FEUAGame,  label = 'FEDRGame', marker = 'h',  markersize = '35', color = '#F33D3C', markerfacecolor='#F33D3C',   linestyle='--', linewidth='5')
+plt.plot(nGroup_labels, MEDAGame, label = 'TMC2022', marker = 'v',  markersize = '35', color = '#F37A5E', markerfacecolor='#F37A5E',linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, TPDSGame, label = 'TPDS2020', marker = '+',  markersize = '35',  color = '#ABBF63', markerfacecolor='#ABBF63',linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, Greedy, label = 'Greedy', marker = 'p',  markersize = '35', color = '#82C9D9',markerfacecolor='#82C9D9', linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, Random , label = 'Random ', marker = 'x',  markersize = '35',  color = '#401219', markerfacecolor='#401219', linestyle='-.', linewidth='5')
+
+
+plt.xticks(x, nGroup_labels, rotation=0)
+
+# cost: 1 - 17 (n), 1 - 7 (d)
+# benefit per replica: 10 - 40, 30 - 150, 20 - 80(d)  10 - 25, 20 - 120, 20 - 45 (n)
+# execution time: 0 - 5(n)   0 - 0.05(d)
+
+# x lables: The number of edge servers           Edge density
+# y labels: Execution Time (s)      Benefits per replica     The cost of caching data
+
+#plt.ylim(0.05, 0.275)
+
+plt.xlabel(u"Number of Physical Machines (l)", fontsize=35)
+plt.ylabel(u"User Coverage", fontsize=30)
+
+plt.tick_params(labelsize=40)
+
+plt.legend(loc = 'lower right')
+
+plt.tight_layout()
+plt.grid(True)
+plt.tight_layout()
+
+foo_fig = plt.gcf()
+foo_fig.savefig('C:\\figures\\2-1user.eps',
+                format='eps', dpi=1000)
+foo_fig.savefig('C:\\figures\\2-1user.png',
+                format='png', dpi=200)
+
+
+plt.show()
+
+
+
+
+

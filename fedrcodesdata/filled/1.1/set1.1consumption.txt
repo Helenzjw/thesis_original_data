@@ -1,0 +1,65 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.ticker import ScalarFormatter
+
+nSetSize = 5
+dSetSize = 5
+fSetSize = 5
+
+nX = np.arange(nSetSize)
+dX = np.arange(dSetSize)
+fX = np.arange(fSetSize)
+
+fig = plt.figure(figsize=(10, 8), dpi=72, facecolor="none")
+ax = plt.subplot(111)
+
+nGroup_labels = ['6', '8', '10', '12', '14', '16', '18', '20']
+dGroup_labels = ['16', '32', '64', '128', '256', '512', '1024', '2048']
+fGroup_labels = ['10', '20', '30', '40', '50', '60', '70', '80']
+
+markers = ['^', 'X', 'o', 'p', 's', '\']
+
+params = {'legend.fontsize': 25, 'legend.handlelength': 1.1}
+plt.rcParams.update(params)
+
+total_width, n = 1.5, 11
+width = total_width / n
+x = np.arange(nSetSize)
+
+Opt = (47835.32659, 58787.75122, 64449.7389, 75337.75016, 87891.30225, 92095.81262, 100832.23297, 150877.95007)
+FEUAGame = (47835.32659, 60787.75122, 74449.7389, 92337.75016, 113891.3023, 121095.8126, 192832.233, 253877.9501)
+MEDAGame = (47835.32659, 65787.75122, 79449.7389, 99337.75016, 120891.3023, 147857.0607, 262832.233, 323877.9501)
+TPDSGame = (47835.32659, 67787.75122, 79449.7389, 99337.75016, 123891.3023, 164543.1782, 262832.233, 323877.9501)
+Greedy = (47835.32659, 67787.75122, 80449.7389, 102337.7502, 123891.3023, 173102.4998, 292832.233, 346968.8081)
+Random = (47835.32659, 67787.75122, 84449.7389, 122337.7502, 163891.3023, 231057.6359, 302832.233, 363877.9501)
+
+plt.plot(nGroup_labels, Opt, label='FEDR-OPT', marker='o', markersize='35', color='#FFC0CB', markerfacecolor='#FFC0CB', linestyle='--', linewidth='5')
+plt.plot(nGroup_labels, FEUAGame, label='FEDRGame', marker='h', markersize='35', color='#F33D3C', markerfacecolor='#F33D3C', linestyle='--', linewidth='5')
+plt.plot(nGroup_labels, MEDAGame, label='TMC2022', marker='v', markersize='35', color='#F37A5E', markerfacecolor='#F37A5E', linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, TPDSGame, label='TPDS2020', marker='+', markersize='35', color='#ABBF63', markerfacecolor='#ABBF63', linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, Greedy, label='Greedy', marker='p', markersize='35', color='#82C9D9', markerfacecolor='#82C9D9', linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, Random, label='Random ', marker='x', markersize='35', color='#401219', markerfacecolor='#401219', linestyle='-.', linewidth='5')
+
+# 启用纵坐标的科学计数法
+ax.yaxis.set_major_formatter(ScalarFormatter(useMathText=True))
+
+# 设置科学计数法样式
+ax.yaxis.get_major_formatter().set_powerlimits((0, 0))
+
+plt.xlabel(u"Number of Physical Machines (l)", fontsize=35)
+plt.ylabel(u"Overall Energy Consumption (Watt)", fontsize=28)
+
+plt.tick_params(labelsize=40)
+
+plt.legend()
+
+plt.tight_layout()
+plt.grid(True)
+
+foo_fig = plt.gcf()
+foo_fig.savefig('C:\\figures\\1-1consumption.eps',
+                format='eps', dpi=1000)
+foo_fig.savefig('C:\\figures\\1-1consumption.png',
+                format='png', dpi=200)
+
+plt.show()

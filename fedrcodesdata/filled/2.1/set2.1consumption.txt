@@ -1,0 +1,85 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.ticker as mtick
+
+
+nSetSize = 5
+dSetSize = 5
+fSetSize = 5
+
+nX= np.arange(nSetSize)
+dX= np.arange(dSetSize)
+fX= np.arange(fSetSize)
+
+fig = plt.figure(figsize=(10, 8), dpi=72, facecolor="none")
+ax = plt.subplot(111)
+
+nGroup_labels = ['50', '100', '150', '200', '250','300', '350', '400']
+dGroup_labels = ['16', '32', '64', '128', '256','512','1024','2048']
+fGroup_labels = ['10','20', '30', '40', '50', '60','70','80']
+
+markers = ['^', 'X', 'o', 'p', 's','\']
+
+#plt.plot(nGroup_labels , label = 'FEUA-OPT', marker = '^', color = '#FFCD00FF', linestyle='--')
+#plt.plot(nGroup_labels , label = 'FEUAGame', marker = 'X', color = '#CC0C00FF', linestyle='-')
+#plt.plot(nGroup_labels, label = 'MEDAGame', marker = 'o', color = '#84BD00FF', linestyle='-.')
+#plt.plot(nGroup_labels, label = 'TPDSGame', marker = 'p', color = '#5C88DAFF', linestyle=';')
+#plt.plot(nGroup_labels, label = 'Greedy', marker = 's', color = '#00B5E2FF', linestyle=',,')
+#plt.plot(nGroup_labels, label = 'Random', marker = '\', color = '#7C878EFF', linestyle='+')
+
+params = {'legend.fontsize': 25,
+          'legend.handlelength': 1.1}
+plt.rcParams.update(params)
+
+total_width, n = 1.5, 11
+width = total_width / n
+x = np.arange(nSetSize)
+
+FEUAGame = (777053.7613,	1571967.815,	2129204,	2639627,	2824850,	2908295,	3014773,	3058858)
+MEDAGame = (806679.297,	1667298,	2300528,	2992741,	3352542,	3558752,	3821231,	3933358
+)
+TPDSGame = (812781.4955,	1677362,	2322915,	3112567,	3457590,	3641086,	3921522,	4102063
+)
+Greedy = (835865.0255,	1765049,	2408527,	3337289,	3873030,	4200587,	4607643,	5072773
+)
+Random = (872528.1296,	1957567,	2844439,	4159322	, 4731279	,5375518,	5757235	,6516898
+)
+
+plt.plot(nGroup_labels, FEUAGame,  label = 'FEDRGame', marker = 'h',  markersize = '35', color = '#F33D3C', markerfacecolor='#F33D3C',   linestyle='--', linewidth='5')
+plt.plot(nGroup_labels, MEDAGame, label = 'TMC2022', marker = 'v',  markersize = '35', color = '#F37A5E', markerfacecolor='#F37A5E',linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, TPDSGame, label = 'TPDS2020', marker = '+',  markersize = '35',  color = '#ABBF63', markerfacecolor='#ABBF63',linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, Greedy, label = 'Greedy', marker = 'p',  markersize = '35', color = '#82C9D9',markerfacecolor='#82C9D9', linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, Random , label = 'Random ', marker = 'x',  markersize = '35',  color = '#401219', markerfacecolor='#401219', linestyle='-.', linewidth='5')
+
+# cost: 1 - 17 (n), 1 - 7 (d)
+# benefit per replica: 10 - 40, 30 - 150, 20 - 80(d)  10 - 25, 20 - 120, 20 - 45 (n)
+# execution time: 0 - 5(n)   0 - 0.05(d)
+
+# x lables: The number of edge servers           Edge density
+# y labels: Execution Time (s)      Benefits per replica     The cost of caching data
+
+#plt.ylim(0.05, 0.275)
+
+plt.xlabel(u"Number of Physcial Machines (l)", fontsize=35)
+plt.ylabel(u"Overall Energy Consumption (Watt)", fontsize=28)
+
+plt.tick_params(labelsize=40)
+
+plt.legend()
+
+plt.tight_layout()
+plt.grid(True)
+
+foo_fig = plt.gcf()
+foo_fig.savefig('C:\\figures\\2-1consumption.eps',
+                format='eps', dpi=1000)
+foo_fig.savefig('C:\\figures\\2-1consumption.png',
+                format='png', dpi=200)
+
+
+plt.show()
+
+
+
+
+
