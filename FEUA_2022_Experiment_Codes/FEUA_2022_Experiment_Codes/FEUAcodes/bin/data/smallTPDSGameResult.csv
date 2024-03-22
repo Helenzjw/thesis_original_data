@@ -1,0 +1,26 @@
+Set#1,the change number of edge server
+TPDSGame:, Servers set, 2, Energy Consumption, 354.58077179227706, User_allo_ratio, 0.3,DecisionIter,6.0,Time,0.0, SystemCost, 0.8699999999999999, Server_ratio, 1.0, OverallDataRate, 6.0, Fairness, 0.09
+TPDSGame:, Servers set, 4, Energy Consumption, 751.7534197879561, User_allo_ratio, 0.35,DecisionIter,7.0,Time,3.0, SystemCost, 0.8425, Server_ratio, 1.0, OverallDataRate, 7.0, Fairness, 0.12249999999999998
+TPDSGame:, Servers set, 6, Energy Consumption, 1142.9808633826128, User_allo_ratio, 0.75,DecisionIter,15.0,Time,9.0, SystemCost, 0.5625, Server_ratio, 1.0, OverallDataRate, 15.0, Fairness, 0.5625
+TPDSGame:, Servers set, 8, Energy Consumption, 1761.5668321244539, User_allo_ratio, 0.8,DecisionIter,16.0,Time,5.0, SystemCost, 0.5199999999999999, Server_ratio, 1.0, OverallDataRate, 16.0, Fairness, 0.6400000000000001
+TPDSGame:, Servers set, 10, Energy Consumption, 1125.9672697932774, User_allo_ratio, 0.8,DecisionIter,16.0,Time,8.0, SystemCost, 0.3866666666666666, Server_ratio, 0.6, OverallDataRate, 16.0, Fairness, 0.6400000000000001
+TPDSGame:, Servers set, 12, Energy Consumption, 1323.685490254952, User_allo_ratio, 0.7,DecisionIter,14.0,Time,5.0, SystemCost, 0.43666666666666665, Server_ratio, 0.5, OverallDataRate, 14.0, Fairness, 0.48999999999999994
+TPDSGame:, Servers set, 14, Energy Consumption, 1720.563284585145, User_allo_ratio, 1.0,DecisionIter,20.0,Time,12.0, SystemCost, 0.22066245274832988, Server_ratio, 0.5714285714285714, OverallDataRate, 19.049401467378097, Fairness, 0.9094412131835817
+TPDSGame:, Servers set, 16, Energy Consumption, 1637.5086167541356, User_allo_ratio, 0.9,DecisionIter,18.0,Time,7.0, SystemCost, 0.2841666666666666, Server_ratio, 0.5625, OverallDataRate, 18.0, Fairness, 0.81
+Set#2,the change number of mobile user
+TPDSGame:, User set, 5, Energy Consumption, 694.5752127510419, User_allo_ratio, 1.0,DecisionIter,5.0,Time,0.0, SystemCost, 0.043478260869565216, Server_ratio, 0.13043478260869565, OverallDataRate, 20.0, Fairness, 1.0
+TPDSGame:, User set, 10, Energy Consumption, 983.06161264047, User_allo_ratio, 0.8,DecisionIter,8.0,Time,1.0, SystemCost, 0.34880573661997766, Server_ratio, 0.45454545454545453, OverallDataRate, 15.377565510711136, Fairness, 0.6081282446855215
+TPDSGame:, User set, 15, Energy Consumption, 1193.2759010477578, User_allo_ratio, 0.9333333333333333,DecisionIter,14.0,Time,3.0, SystemCost, 0.19018518518518518, Server_ratio, 0.375, OverallDataRate, 18.666666666666668, Fairness, 0.8711111111111112
+TPDSGame:, User set, 20, Energy Consumption, 1811.0373178995117, User_allo_ratio, 0.9,DecisionIter,18.0,Time,4.0, SystemCost, 0.25539682539682534, Server_ratio, 0.47619047619047616, OverallDataRate, 18.0, Fairness, 0.81
+TPDSGame:, User set, 25, Energy Consumption, 2415.6862141641636, User_allo_ratio, 1.0,DecisionIter,25.0,Time,17.0, SystemCost, 0.14814814814814814, Server_ratio, 0.4444444444444444, OverallDataRate, 20.0, Fairness, 1.0
+TPDSGame:, User set, 30, Energy Consumption, 2423.524257976951, User_allo_ratio, 0.9333333333333333,DecisionIter,28.0,Time,12.0, SystemCost, 0.300479302832244, Server_ratio, 0.7058823529411765, OverallDataRate, 18.666666666666668, Fairness, 0.8711111111111112
+TPDSGame:, User set, 35, Energy Consumption, 2910.962297522732, User_allo_ratio, 0.8857142857142857,DecisionIter,31.0,Time,17.0, SystemCost, 0.3555460078768349, Server_ratio, 0.7368421052631579, OverallDataRate, 17.714285714285715, Fairness, 0.7844897959183674
+TPDSGame:, User set, 40, Energy Consumption, 3734.444410906593, User_allo_ratio, 0.975,DecisionIter,39.0,Time,31.0, SystemCost, 0.22717261904761904, Server_ratio, 0.6071428571428571, OverallDataRate, 19.5, Fairness, 0.9506249999999999
+TPDSGame:, Capacity set, 1, Energy Consumption, 0.0, User_allo_ratio, 0.0,DecisionIter,0.0,Time,0.0, SystemCost, NaN, Server_ratio, 0.0, OverallDataRate, 0.0, Fairness, NaN
+TPDSGame:, Capacity set, 2, Energy Consumption, 448.78344873422895, User_allo_ratio, 0.1,DecisionIter,2.0,Time,1.0, SystemCost, 0.6966666666666667, Server_ratio, 0.2, OverallDataRate, 2.0, Fairness, 0.010000000000000002
+TPDSGame:, Capacity set, 3, Energy Consumption, 1501.7949263263415, User_allo_ratio, 0.6,DecisionIter,12.0,Time,3.0, SystemCost, 0.58, Server_ratio, 0.7, OverallDataRate, 12.0, Fairness, 0.36
+TPDSGame:, Capacity set, 4, Energy Consumption, 1495.9693712205424, User_allo_ratio, 0.9,DecisionIter,18.0,Time,4.0, SystemCost, 0.32999999999999996, Server_ratio, 0.7, OverallDataRate, 18.0, Fairness, 0.81
+TPDSGame:, Capacity set, 5, Energy Consumption, 1290.616326658518, User_allo_ratio, 1.0,DecisionIter,20.0,Time,5.0, SystemCost, 0.19999999999999998, Server_ratio, 0.6, OverallDataRate, 20.0, Fairness, 1.0
+TPDSGame:, Capacity set, 6, Energy Consumption, 1022.7515978121818, User_allo_ratio, 0.65,DecisionIter,13.0,Time,1.0, SystemCost, 0.47583333333333333, Server_ratio, 0.5, OverallDataRate, 13.0, Fairness, 0.42250000000000004
+TPDSGame:, Capacity set, 7, Energy Consumption, 948.6342622980708, User_allo_ratio, 1.0,DecisionIter,20.0,Time,11.0, SystemCost, 0.16666666666666666, Server_ratio, 0.5, OverallDataRate, 20.0, Fairness, 1.0
+TPDSGame:, Capacity set, 8, Energy Consumption, 1165.0295642622957, User_allo_ratio, 1.0,DecisionIter,20.0,Time,5.0, SystemCost, 0.16666666666666666, Server_ratio, 0.5, OverallDataRate, 20.0, Fairness, 1.0

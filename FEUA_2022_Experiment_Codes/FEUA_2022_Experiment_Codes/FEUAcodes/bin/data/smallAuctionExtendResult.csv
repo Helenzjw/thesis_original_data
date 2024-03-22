@@ -1,0 +1,27 @@
+Set#1,the change number of edge server
+Auction_extend:, Servers set, 2, Energy Consumption, 185.9093004848303, User_allo_ratio, 0.15,DecisionIter,0.0,Time,0.0, SystemCost, 0.7758333333333333, Server_ratio, 0.5, OverallDataRate, 3.0, Fairness, 0.0225
+Auction_extend:, Servers set, 4, Energy Consumption, 243.92095291736877, User_allo_ratio, 0.05,DecisionIter,0.0,Time,0.0, SystemCost, 0.7325, Server_ratio, 0.25, OverallDataRate, 1.0, Fairness, 0.0025000000000000005
+Auction_extend:, Servers set, 6, Energy Consumption, 227.3464505089428, User_allo_ratio, 0.1,DecisionIter,0.0,Time,1.0, SystemCost, 0.6855555555555556, Server_ratio, 0.16666666666666666, OverallDataRate, 2.0, Fairness, 0.010000000000000002
+Auction_extend:, Servers set, 8, Energy Consumption, 262.5968764113214, User_allo_ratio, 0.1,DecisionIter,0.0,Time,0.0, SystemCost, 0.6716666666666666, Server_ratio, 0.125, OverallDataRate, 2.0, Fairness, 0.010000000000000002
+Auction_extend:, Servers set, 10, Energy Consumption, 263.2973819028816, User_allo_ratio, 0.1,DecisionIter,0.0,Time,1.0, SystemCost, 0.6633333333333333, Server_ratio, 0.1, OverallDataRate, 2.0, Fairness, 0.010000000000000002
+Auction_extend:, Servers set, 12, Energy Consumption, 299.93353936574005, User_allo_ratio, 0.15,DecisionIter,0.0,Time,1.0, SystemCost, 0.6369444444444444, Server_ratio, 0.08333333333333333, OverallDataRate, 3.0, Fairness, 0.0225
+Auction_extend:, Servers set, 14, Energy Consumption, 281.58990529828486, User_allo_ratio, 0.15,DecisionIter,0.0,Time,1.0, SystemCost, 0.6329761904761905, Server_ratio, 0.07142857142857142, OverallDataRate, 3.0, Fairness, 0.0225
+Auction_extend:, Servers set, 16, Energy Consumption, 293.3404611661208, User_allo_ratio, 0.05,DecisionIter,0.0,Time,1.0, SystemCost, 0.67, Server_ratio, 0.0625, OverallDataRate, 1.0, Fairness, 0.0025000000000000005
+Set#2,the change number of mobile user
+Auction_extend:, User set, 5, Energy Consumption, 274.2203237503153, User_allo_ratio, 0.6,DecisionIter,0.0,Time,1.0, SystemCost, 0.3611594202898551, Server_ratio, 0.043478260869565216, OverallDataRate, 12.0, Fairness, 0.36
+Auction_extend:, User set, 10, Energy Consumption, 292.48234594373776, User_allo_ratio, 0.3,DecisionIter,0.0,Time,0.0, SystemCost, 0.5669696969696969, Server_ratio, 0.09090909090909091, OverallDataRate, 6.0, Fairness, 0.09
+Auction_extend:, User set, 15, Energy Consumption, 284.9266664543101, User_allo_ratio, 0.13333333333333333,DecisionIter,0.0,Time,1.0, SystemCost, 0.6371296296296297, Server_ratio, 0.0625, OverallDataRate, 2.6666666666666665, Fairness, 0.017777777777777778
+Auction_extend:, User set, 20, Energy Consumption, 291.2073289423496, User_allo_ratio, 0.1,DecisionIter,0.0,Time,1.0, SystemCost, 0.6458730158730159, Server_ratio, 0.047619047619047616, OverallDataRate, 2.0, Fairness, 0.010000000000000002
+Auction_extend:, User set, 25, Energy Consumption, 297.5516432043306, User_allo_ratio, 0.08,DecisionIter,0.0,Time,1.0, SystemCost, 0.6502123456790123, Server_ratio, 0.037037037037037035, OverallDataRate, 1.6, Fairness, 0.0064
+Auction_extend:, User set, 30, Energy Consumption, 286.81463616528174, User_allo_ratio, 0.06666666666666667,DecisionIter,0.0,Time,2.0, SystemCost, 0.6625708061002179, Server_ratio, 0.058823529411764705, OverallDataRate, 1.3333333333333333, Fairness, 0.0044444444444444444
+Auction_extend:, User set, 35, Energy Consumption, 282.4341829951699, User_allo_ratio, 0.05714285714285714,DecisionIter,0.0,Time,1.0, SystemCost, 0.6640744718940208, Server_ratio, 0.05263157894736842, OverallDataRate, 1.1428571428571428, Fairness, 0.0032653061224489793
+Auction_extend:, User set, 40, Energy Consumption, 299.43149547233986, User_allo_ratio, 0.05,DecisionIter,0.0,Time,2.0, SystemCost, 0.6610714285714285, Server_ratio, 0.03571428571428571, OverallDataRate, 1.0, Fairness, 0.0025000000000000005
+Set#3,the change of available capacity
+Auction_extend:, Capacity set, 1, Energy Consumption, 0.0, User_allo_ratio, 0.0,DecisionIter,0.0,Time,1.0, SystemCost, NaN, Server_ratio, 0.0, OverallDataRate, 0.0, Fairness, 0.0
+Auction_extend:, Capacity set, 2, Energy Consumption, 131.99095550608314, User_allo_ratio, 0.05,DecisionIter,0.0,Time,0.0, SystemCost, 0.6825, Server_ratio, 0.1, OverallDataRate, 1.0, Fairness, 0.0025000000000000005
+Auction_extend:, Capacity set, 3, Energy Consumption, 264.3880976181231, User_allo_ratio, 0.1,DecisionIter,0.0,Time,1.0, SystemCost, 0.6633333333333333, Server_ratio, 0.1, OverallDataRate, 2.0, Fairness, 0.010000000000000002
+Auction_extend:, Capacity set, 4, Energy Consumption, 277.844546513279, User_allo_ratio, 0.15,DecisionIter,0.0,Time,1.0, SystemCost, 0.6425, Server_ratio, 0.1, OverallDataRate, 3.0, Fairness, 0.0225
+Auction_extend:, Capacity set, 5, Energy Consumption, 297.9652001813867, User_allo_ratio, 0.15,DecisionIter,0.0,Time,0.0, SystemCost, 0.6425, Server_ratio, 0.1, OverallDataRate, 3.0, Fairness, 0.0225
+Auction_extend:, Capacity set, 6, Energy Consumption, 285.87027697153496, User_allo_ratio, 0.15,DecisionIter,0.0,Time,0.0, SystemCost, 0.6425, Server_ratio, 0.1, OverallDataRate, 3.0, Fairness, 0.0225
+Auction_extend:, Capacity set, 7, Energy Consumption, 285.63469899563205, User_allo_ratio, 0.25,DecisionIter,0.0,Time,0.0, SystemCost, 0.5958333333333333, Server_ratio, 0.1, OverallDataRate, 5.0, Fairness, 0.0625
+Auction_extend:, Capacity set, 8, Energy Consumption, 283.7586843111633, User_allo_ratio, 0.35,DecisionIter,0.0,Time,1.0, SystemCost, 0.5425000000000001, Server_ratio, 0.1, OverallDataRate, 7.0, Fairness, 0.12249999999999998

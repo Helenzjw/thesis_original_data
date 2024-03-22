@@ -1,0 +1,27 @@
+Set#1,the change number of edge server
+Greedy:, Servers set, 2, Energy Consumption, 354.58077179227706, User_allo_ratio, 0.3,DecisionIter,0.0,Time,0.0, SystemCost, 0.8699999999999999, Server_ratio, 1.0, OverallDataRate, 6.0, Fairness, 0.09
+Greedy:, Servers set, 4, Energy Consumption, 751.7534197879561, User_allo_ratio, 0.35,DecisionIter,0.0,Time,0.0, SystemCost, 0.8425, Server_ratio, 1.0, OverallDataRate, 7.0, Fairness, 0.12249999999999998
+Greedy:, Servers set, 6, Energy Consumption, 1142.9808633826128, User_allo_ratio, 0.75,DecisionIter,0.0,Time,0.0, SystemCost, 0.5625, Server_ratio, 1.0, OverallDataRate, 15.0, Fairness, 0.5625
+Greedy:, Servers set, 8, Energy Consumption, 1761.5668321244539, User_allo_ratio, 0.75,DecisionIter,0.0,Time,0.0, SystemCost, 0.5625, Server_ratio, 1.0, OverallDataRate, 15.0, Fairness, 0.5625
+Greedy:, Servers set, 10, Energy Consumption, 1125.9672697932774, User_allo_ratio, 0.8,DecisionIter,0.0,Time,0.0, SystemCost, 0.3866666666666666, Server_ratio, 0.6, OverallDataRate, 16.0, Fairness, 0.6400000000000001
+Greedy:, Servers set, 12, Energy Consumption, 1867.823374168805, User_allo_ratio, 0.85,DecisionIter,0.0,Time,0.0, SystemCost, 0.39250000000000007, Server_ratio, 0.75, OverallDataRate, 17.0, Fairness, 0.7224999999999999
+Greedy:, Servers set, 14, Energy Consumption, 2692.9452780004613, User_allo_ratio, 1.0,DecisionIter,0.0,Time,1.0, SystemCost, 0.33746376776778714, Server_ratio, 0.9285714285714286, OverallDataRate, 19.098788727118794, Fairness, 0.9161801252680672
+Greedy:, Servers set, 16, Energy Consumption, 2518.7278751171516, User_allo_ratio, 0.95,DecisionIter,0.0,Time,0.0, SystemCost, 0.3408333333333334, Server_ratio, 0.875, OverallDataRate, 19.0, Fairness, 0.9025
+Set#2,the change number of mobile user
+Greedy:, User set, 5, Energy Consumption, 1093.500435596944, User_allo_ratio, 1.0,DecisionIter,0.0,Time,0.0, SystemCost, 0.07246376811594203, Server_ratio, 0.21739130434782608, OverallDataRate, 20.0, Fairness, 1.0
+Greedy:, User set, 10, Energy Consumption, 1643.3425916651772, User_allo_ratio, 0.8,DecisionIter,0.0,Time,0.0, SystemCost, 0.429090909090909, Server_ratio, 0.7272727272727273, OverallDataRate, 16.0, Fairness, 0.6400000000000001
+Greedy:, User set, 15, Energy Consumption, 2828.1741481017525, User_allo_ratio, 1.0,DecisionIter,0.0,Time,1.0, SystemCost, 0.2916666666666667, Server_ratio, 0.875, OverallDataRate, 20.0, Fairness, 1.0
+Greedy:, User set, 20, Energy Consumption, 2673.6353242337063, User_allo_ratio, 1.0,DecisionIter,0.0,Time,1.0, SystemCost, 0.2380952380952381, Server_ratio, 0.7142857142857143, OverallDataRate, 20.0, Fairness, 1.0
+Greedy:, User set, 25, Energy Consumption, 4307.593593372502, User_allo_ratio, 1.0,DecisionIter,0.0,Time,1.0, SystemCost, 0.25925925925925924, Server_ratio, 0.7777777777777778, OverallDataRate, 20.0, Fairness, 1.0
+Greedy:, User set, 30, Energy Consumption, 3339.4827677940643, User_allo_ratio, 0.9666666666666667,DecisionIter,0.0,Time,0.0, SystemCost, 0.34668845315904145, Server_ratio, 0.9411764705882353, OverallDataRate, 19.333333333333332, Fairness, 0.9344444444444443
+Greedy:, User set, 35, Energy Consumption, 3442.4456138833625, User_allo_ratio, 0.9428571428571428,DecisionIter,0.0,Time,1.0, SystemCost, 0.3543000358037952, Server_ratio, 0.8947368421052632, OverallDataRate, 18.857142857142858, Fairness, 0.8889795918367347
+Greedy:, User set, 40, Energy Consumption, 5042.251902684034, User_allo_ratio, 0.95,DecisionIter,0.0,Time,1.0, SystemCost, 0.3467857142857143, Server_ratio, 0.8928571428571429, OverallDataRate, 19.0, Fairness, 0.9025
+Set#3,the change of available capacity
+Greedy:, Capacity set, 1, Energy Consumption, 0.0, User_allo_ratio, 0.0,DecisionIter,0.0,Time,0.0, SystemCost, NaN, Server_ratio, 0.0, OverallDataRate, 0.0, Fairness, NaN
+Greedy:, Capacity set, 2, Energy Consumption, 448.78344873422895, User_allo_ratio, 0.1,DecisionIter,0.0,Time,0.0, SystemCost, 0.6966666666666667, Server_ratio, 0.2, OverallDataRate, 2.0, Fairness, 0.010000000000000002
+Greedy:, Capacity set, 3, Energy Consumption, 1535.2511904970327, User_allo_ratio, 0.65,DecisionIter,0.0,Time,0.0, SystemCost, 0.5758333333333333, Server_ratio, 0.8, OverallDataRate, 13.0, Fairness, 0.42250000000000004
+Greedy:, Capacity set, 4, Energy Consumption, 2035.9637171022496, User_allo_ratio, 0.9,DecisionIter,0.0,Time,0.0, SystemCost, 0.42999999999999994, Server_ratio, 1.0, OverallDataRate, 18.0, Fairness, 0.81
+Greedy:, Capacity set, 5, Energy Consumption, 2292.4247340482325, User_allo_ratio, 1.0,DecisionIter,0.0,Time,1.0, SystemCost, 0.3333333333333333, Server_ratio, 1.0, OverallDataRate, 20.0, Fairness, 1.0
+Greedy:, Capacity set, 6, Energy Consumption, 1652.64587357205, User_allo_ratio, 0.65,DecisionIter,0.0,Time,0.0, SystemCost, 0.5758333333333333, Server_ratio, 0.8, OverallDataRate, 13.0, Fairness, 0.42250000000000004
+Greedy:, Capacity set, 7, Energy Consumption, 1869.5716980281102, User_allo_ratio, 1.0,DecisionIter,0.0,Time,1.0, SystemCost, 0.3333333333333333, Server_ratio, 1.0, OverallDataRate, 20.0, Fairness, 1.0
+Greedy:, Capacity set, 8, Energy Consumption, 1958.0485550163728, User_allo_ratio, 1.0,DecisionIter,0.0,Time,0.0, SystemCost, 0.3333333333333333, Server_ratio, 1.0, OverallDataRate, 20.0, Fairness, 1.0

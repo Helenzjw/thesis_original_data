@@ -1,0 +1,27 @@
+Set#1,the change number of edge server
+EUAGame:, Servers set, 2, Energy Consumption, 354.58077179227706, User_allo_ratio, 0.3,DecisionIter,6.0,Time,4.0, SystemCost, 0.8699999999999999, Server_ratio, 1.0, OverallDataRate, 6.0, Fairness, 0.09
+EUAGame:, Servers set, 4, Energy Consumption, 751.7534197879561, User_allo_ratio, 0.35,DecisionIter,7.0,Time,2.0, SystemCost, 0.8425, Server_ratio, 1.0, OverallDataRate, 7.0, Fairness, 0.12249999999999998
+EUAGame:, Servers set, 6, Energy Consumption, 1142.9808633826128, User_allo_ratio, 0.75,DecisionIter,15.0,Time,9.0, SystemCost, 0.5625, Server_ratio, 1.0, OverallDataRate, 15.0, Fairness, 0.5625
+EUAGame:, Servers set, 8, Energy Consumption, 1761.5668321244539, User_allo_ratio, 0.8,DecisionIter,16.0,Time,5.0, SystemCost, 0.5199999999999999, Server_ratio, 1.0, OverallDataRate, 16.0, Fairness, 0.6400000000000001
+EUAGame:, Servers set, 10, Energy Consumption, 1125.9672697932774, User_allo_ratio, 0.8,DecisionIter,16.0,Time,8.0, SystemCost, 0.3866666666666666, Server_ratio, 0.6, OverallDataRate, 16.0, Fairness, 0.6400000000000001
+EUAGame:, Servers set, 12, Energy Consumption, 1520.4914245911234, User_allo_ratio, 0.8,DecisionIter,16.0,Time,6.0, SystemCost, 0.38111111111111107, Server_ratio, 0.5833333333333334, OverallDataRate, 16.0, Fairness, 0.6400000000000001
+EUAGame:, Servers set, 14, Energy Consumption, 1833.2462297082168, User_allo_ratio, 1.0,DecisionIter,21.0,Time,13.0, SystemCost, 0.24004660180608214, Server_ratio, 0.6428571428571429, OverallDataRate, 19.14820237222485, Fairness, 0.9227173374388965
+EUAGame:, Servers set, 16, Energy Consumption, 1504.2782035142275, User_allo_ratio, 0.9,DecisionIter,18.0,Time,19.0, SystemCost, 0.2633333333333333, Server_ratio, 0.5, OverallDataRate, 18.0, Fairness, 0.81
+Set#2,the change number of mobile user
+EUAGame:, User set, 5, Energy Consumption, 694.5752127510419, User_allo_ratio, 1.0,DecisionIter,5.0,Time,0.0, SystemCost, 0.043478260869565216, Server_ratio, 0.13043478260869565, OverallDataRate, 20.0, Fairness, 1.0
+EUAGame:, User set, 10, Energy Consumption, 983.06161264047, User_allo_ratio, 0.8,DecisionIter,9.0,Time,1.0, SystemCost, 0.33818181818181814, Server_ratio, 0.45454545454545453, OverallDataRate, 16.0, Fairness, 0.6400000000000001
+EUAGame:, User set, 15, Energy Consumption, 1325.5254279783744, User_allo_ratio, 1.0,DecisionIter,15.0,Time,4.0, SystemCost, 0.14583333333333334, Server_ratio, 0.4375, OverallDataRate, 20.0, Fairness, 1.0
+EUAGame:, User set, 20, Energy Consumption, 1595.2490971568268, User_allo_ratio, 0.95,DecisionIter,19.0,Time,6.0, SystemCost, 0.19202380952380954, Server_ratio, 0.42857142857142855, OverallDataRate, 19.0, Fairness, 0.9025
+EUAGame:, User set, 25, Energy Consumption, 2633.8077620264417, User_allo_ratio, 1.0,DecisionIter,25.0,Time,18.0, SystemCost, 0.16049382716049382, Server_ratio, 0.48148148148148145, OverallDataRate, 20.0, Fairness, 1.0
+EUAGame:, User set, 30, Energy Consumption, 2323.1769096315093, User_allo_ratio, 0.8666666666666667,DecisionIter,26.0,Time,12.0, SystemCost, 0.3627015250544663, Server_ratio, 0.7058823529411765, OverallDataRate, 17.333333333333332, Fairness, 0.7511111111111111
+EUAGame:, User set, 35, Energy Consumption, 2476.584996038469, User_allo_ratio, 0.7428571428571429,DecisionIter,26.0,Time,28.0, SystemCost, 0.4456283566058002, Server_ratio, 0.631578947368421, OverallDataRate, 14.857142857142858, Fairness, 0.5518367346938776
+EUAGame:, User set, 40, Energy Consumption, 4040.219759369672, User_allo_ratio, 0.95,DecisionIter,38.0,Time,29.0, SystemCost, 0.27535714285714286, Server_ratio, 0.6785714285714286, OverallDataRate, 19.0, Fairness, 0.9025
+Set#3,the change of available capacity
+EUAGame:, Capacity set, 1, Energy Consumption, 0.0, User_allo_ratio, 0.0,DecisionIter,0.0,Time,0.0, SystemCost, NaN, Server_ratio, 0.0, OverallDataRate, 0.0, Fairness, NaN
+EUAGame:, Capacity set, 2, Energy Consumption, 448.78344873422895, User_allo_ratio, 0.1,DecisionIter,2.0,Time,0.0, SystemCost, 0.6974793358659122, Server_ratio, 0.2, OverallDataRate, 1.604367618622269, Fairness, 0.00756199240226349
+EUAGame:, Capacity set, 3, Energy Consumption, 1501.7949263263415, User_allo_ratio, 0.6,DecisionIter,12.0,Time,1.0, SystemCost, 0.58, Server_ratio, 0.7, OverallDataRate, 12.0, Fairness, 0.36
+EUAGame:, Capacity set, 4, Energy Consumption, 1495.9693712205424, User_allo_ratio, 0.9,DecisionIter,18.0,Time,2.0, SystemCost, 0.32999999999999996, Server_ratio, 0.7, OverallDataRate, 18.0, Fairness, 0.81
+EUAGame:, Capacity set, 5, Energy Consumption, 1290.616326658518, User_allo_ratio, 1.0,DecisionIter,20.0,Time,7.0, SystemCost, 0.19999999999999998, Server_ratio, 0.6, OverallDataRate, 20.0, Fairness, 1.0
+EUAGame:, Capacity set, 6, Energy Consumption, 1022.7515978121818, User_allo_ratio, 0.65,DecisionIter,13.0,Time,2.0, SystemCost, 0.47583333333333333, Server_ratio, 0.5, OverallDataRate, 13.0, Fairness, 0.42250000000000004
+EUAGame:, Capacity set, 7, Energy Consumption, 948.6342622980708, User_allo_ratio, 1.0,DecisionIter,20.0,Time,3.0, SystemCost, 0.16666666666666666, Server_ratio, 0.5, OverallDataRate, 20.0, Fairness, 1.0
+EUAGame:, Capacity set, 8, Energy Consumption, 1165.0295642622957, User_allo_ratio, 1.0,DecisionIter,20.0,Time,3.0, SystemCost, 0.16666666666666666, Server_ratio, 0.5, OverallDataRate, 20.0, Fairness, 1.0

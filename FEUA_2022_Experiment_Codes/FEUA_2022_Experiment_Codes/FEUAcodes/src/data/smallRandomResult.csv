@@ -1,0 +1,27 @@
+Set#1,the change number of edge server
+Random:, Servers set, 2, Energy Consumption, 354.58077179227706, User_allo_ratio, 0.3,DecisionIter,0.0,Time,0.0, SystemCost, 0.8699999999999999, Server_ratio, 1.0, OverallDataRate, 6.0, Fairness, 0.09
+Random:, Servers set, 4, Energy Consumption, 579.4389855540697, User_allo_ratio, 0.25,DecisionIter,0.0,Time,0.0, SystemCost, 0.8125, Server_ratio, 0.75, OverallDataRate, 5.0, Fairness, 0.0625
+Random:, Servers set, 6, Energy Consumption, 1142.9808633826128, User_allo_ratio, 0.65,DecisionIter,0.0,Time,0.0, SystemCost, 0.6425, Server_ratio, 1.0, OverallDataRate, 13.0, Fairness, 0.42250000000000004
+Random:, Servers set, 8, Energy Consumption, 1498.969955713132, User_allo_ratio, 0.6,DecisionIter,0.0,Time,0.0, SystemCost, 0.6383333333333334, Server_ratio, 0.875, OverallDataRate, 12.0, Fairness, 0.36
+Random:, Servers set, 10, Energy Consumption, 1125.9672697932774, User_allo_ratio, 0.7,DecisionIter,0.0,Time,0.0, SystemCost, 0.47, Server_ratio, 0.6, OverallDataRate, 14.0, Fairness, 0.48999999999999994
+Random:, Servers set, 12, Energy Consumption, 1295.551573760366, User_allo_ratio, 0.65,DecisionIter,0.0,Time,0.0, SystemCost, 0.5036111111111111, Server_ratio, 0.5833333333333334, OverallDataRate, 13.0, Fairness, 0.42250000000000004
+Random:, Servers set, 14, Energy Consumption, 1782.9445446006343, User_allo_ratio, 0.85,DecisionIter,0.0,Time,0.0, SystemCost, 0.3804421841548713, Server_ratio, 0.6428571428571429, OverallDataRate, 16.098788727118794, Fairness, 0.6515305903925289
+Random:, Servers set, 16, Energy Consumption, 2084.7231823955826, User_allo_ratio, 0.85,DecisionIter,0.0,Time,0.0, SystemCost, 0.39250000000000007, Server_ratio, 0.75, OverallDataRate, 17.0, Fairness, 0.7224999999999999
+Set#2,the change number of mobile user
+Random:, User set, 5, Energy Consumption, 967.219849916553, User_allo_ratio, 1.0,DecisionIter,0.0,Time,0.0, SystemCost, 0.07246376811594203, Server_ratio, 0.21739130434782608, OverallDataRate, 20.0, Fairness, 1.0
+Random:, User set, 10, Energy Consumption, 1180.0666085150615, User_allo_ratio, 0.7,DecisionIter,0.0,Time,0.0, SystemCost, 0.4518181818181818, Server_ratio, 0.5454545454545454, OverallDataRate, 14.0, Fairness, 0.48999999999999994
+Random:, User set, 15, Energy Consumption, 2000.3776013512552, User_allo_ratio, 0.9333333333333333,DecisionIter,0.0,Time,0.0, SystemCost, 0.2735185185185185, Server_ratio, 0.625, OverallDataRate, 18.666666666666668, Fairness, 0.8711111111111112
+Random:, User set, 20, Energy Consumption, 2523.6941716292135, User_allo_ratio, 0.85,DecisionIter,0.0,Time,0.0, SystemCost, 0.3488492063492064, Server_ratio, 0.6190476190476191, OverallDataRate, 17.0, Fairness, 0.7224999999999999
+Random:, User set, 25, Energy Consumption, 3662.392074174719, User_allo_ratio, 0.92,DecisionIter,0.0,Time,0.0, SystemCost, 0.27539753086419755, Server_ratio, 0.5925925925925926, OverallDataRate, 18.4, Fairness, 0.8463999999999999
+Random:, User set, 30, Energy Consumption, 2424.2020180220434, User_allo_ratio, 0.6666666666666666,DecisionIter,0.0,Time,1.0, SystemCost, 0.5315904139433552, Server_ratio, 0.7058823529411765, OverallDataRate, 13.333333333333334, Fairness, 0.4444444444444445
+Random:, User set, 35, Energy Consumption, 2665.639071189293, User_allo_ratio, 0.7142857142857143,DecisionIter,0.0,Time,0.0, SystemCost, 0.4865735767991407, Server_ratio, 0.6842105263157895, OverallDataRate, 14.285714285714286, Fairness, 0.5102040816326531
+Random:, User set, 40, Energy Consumption, 4190.398427869981, User_allo_ratio, 0.8,DecisionIter,0.0,Time,0.0, SystemCost, 0.4323105338036621, Server_ratio, 0.7142857142857143, OverallDataRate, 15.65973937522396, Fairness, 0.6173541128747281
+Set#3,the change of available capacity
+Random:, Capacity set, 1, Energy Consumption, 0.0, User_allo_ratio, 0.0,DecisionIter,0.0,Time,0.0, SystemCost, NaN, Server_ratio, 0.0, OverallDataRate, 0.0, Fairness, NaN
+Random:, Capacity set, 2, Energy Consumption, 151.44806218950933, User_allo_ratio, 0.05,DecisionIter,0.0,Time,0.0, SystemCost, 0.6825, Server_ratio, 0.1, OverallDataRate, 1.0, Fairness, 0.0025000000000000005
+Random:, Capacity set, 3, Energy Consumption, 1501.7949263263415, User_allo_ratio, 0.55,DecisionIter,0.0,Time,0.0, SystemCost, 0.6158333333333333, Server_ratio, 0.7, OverallDataRate, 11.0, Fairness, 0.30250000000000005
+Random:, Capacity set, 4, Energy Consumption, 1632.3573450982176, User_allo_ratio, 0.75,DecisionIter,0.0,Time,0.0, SystemCost, 0.49583333333333335, Server_ratio, 0.8, OverallDataRate, 15.0, Fairness, 0.5625
+Random:, Capacity set, 5, Energy Consumption, 2041.3954638014447, User_allo_ratio, 0.9,DecisionIter,0.0,Time,0.0, SystemCost, 0.3966666666666666, Server_ratio, 0.9, OverallDataRate, 18.0, Fairness, 0.81
+Random:, Capacity set, 6, Energy Consumption, 1142.8961880623735, User_allo_ratio, 0.65,DecisionIter,0.0,Time,0.0, SystemCost, 0.5091666666666667, Server_ratio, 0.6, OverallDataRate, 13.0, Fairness, 0.42250000000000004
+Random:, Capacity set, 7, Energy Consumption, 1583.936999032478, User_allo_ratio, 1.0,DecisionIter,0.0,Time,0.0, SystemCost, 0.3, Server_ratio, 0.9, OverallDataRate, 20.0, Fairness, 1.0
+Random:, Capacity set, 8, Energy Consumption, 1372.3030774317117, User_allo_ratio, 1.0,DecisionIter,0.0,Time,0.0, SystemCost, 0.2333333333333333, Server_ratio, 0.7, OverallDataRate, 20.0, Fairness, 1.0

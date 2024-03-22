@@ -1,0 +1,27 @@
+Set#1,the change number of edge server
+MEDAGame:, Servers set, 2, Energy Consumption, 354.58077179227706, User_allo_ratio, 0.3,DecisionIter,6.0,Time,0.0, SystemCost, 0.8730211163271329, Server_ratio, 1.0, OverallDataRate, 5.562593520361743, Fairness, 0.0809366510186013
+MEDAGame:, Servers set, 4, Energy Consumption, 751.7534197879561, User_allo_ratio, 0.35,DecisionIter,7.0,Time,3.0, SystemCost, 0.8425, Server_ratio, 1.0, OverallDataRate, 7.0, Fairness, 0.12249999999999998
+MEDAGame:, Servers set, 6, Energy Consumption, 1142.9808633826128, User_allo_ratio, 0.75,DecisionIter,15.0,Time,8.0, SystemCost, 0.5625, Server_ratio, 1.0, OverallDataRate, 15.0, Fairness, 0.5625
+MEDAGame:, Servers set, 8, Energy Consumption, 1761.5668321244539, User_allo_ratio, 0.8,DecisionIter,16.0,Time,6.0, SystemCost, 0.5199999999999999, Server_ratio, 1.0, OverallDataRate, 16.0, Fairness, 0.6400000000000001
+MEDAGame:, Servers set, 10, Energy Consumption, 1125.9672697932774, User_allo_ratio, 0.8,DecisionIter,16.0,Time,7.0, SystemCost, 0.3866666666666666, Server_ratio, 0.6, OverallDataRate, 16.0, Fairness, 0.6400000000000001
+MEDAGame:, Servers set, 12, Energy Consumption, 1323.685490254952, User_allo_ratio, 0.75,DecisionIter,15.0,Time,5.0, SystemCost, 0.39583333333333337, Server_ratio, 0.5, OverallDataRate, 15.0, Fairness, 0.5625
+MEDAGame:, Servers set, 14, Energy Consumption, 1720.563284585145, User_allo_ratio, 1.0,DecisionIter,20.0,Time,14.0, SystemCost, 0.22066245274832988, Server_ratio, 0.5714285714285714, OverallDataRate, 19.049401467378097, Fairness, 0.9094412131835817
+MEDAGame:, Servers set, 16, Energy Consumption, 1504.2782035142275, User_allo_ratio, 0.95,DecisionIter,19.0,Time,6.0, SystemCost, 0.21583333333333335, Server_ratio, 0.5, OverallDataRate, 19.0, Fairness, 0.9025
+Set#2,the change number of mobile user
+MEDAGame:, User set, 5, Energy Consumption, 694.5752127510419, User_allo_ratio, 1.0,DecisionIter,5.0,Time,0.0, SystemCost, 0.043478260869565216, Server_ratio, 0.13043478260869565, OverallDataRate, 20.0, Fairness, 1.0
+MEDAGame:, User set, 10, Energy Consumption, 983.06161264047, User_allo_ratio, 0.8,DecisionIter,8.0,Time,0.0, SystemCost, 0.34880573661997766, Server_ratio, 0.45454545454545453, OverallDataRate, 15.377565510711136, Fairness, 0.6081282446855215
+MEDAGame:, User set, 15, Energy Consumption, 1193.2759010477578, User_allo_ratio, 0.9333333333333333,DecisionIter,14.0,Time,4.0, SystemCost, 0.19018518518518518, Server_ratio, 0.375, OverallDataRate, 18.666666666666668, Fairness, 0.8711111111111112
+MEDAGame:, User set, 20, Energy Consumption, 1811.0373178995117, User_allo_ratio, 0.95,DecisionIter,19.0,Time,6.0, SystemCost, 0.2078968253968254, Server_ratio, 0.47619047619047616, OverallDataRate, 19.0, Fairness, 0.9025
+MEDAGame:, User set, 25, Energy Consumption, 2244.482975963169, User_allo_ratio, 1.0,DecisionIter,25.0,Time,17.0, SystemCost, 0.13580246913580246, Server_ratio, 0.4074074074074074, OverallDataRate, 20.0, Fairness, 1.0
+MEDAGame:, User set, 30, Energy Consumption, 2323.1769096315093, User_allo_ratio, 0.8666666666666667,DecisionIter,26.0,Time,11.0, SystemCost, 0.3627015250544663, Server_ratio, 0.7058823529411765, OverallDataRate, 17.333333333333332, Fairness, 0.7511111111111111
+MEDAGame:, User set, 35, Energy Consumption, 2861.3120251916016, User_allo_ratio, 0.8571428571428571,DecisionIter,30.0,Time,18.0, SystemCost, 0.3816684568564268, Server_ratio, 0.7368421052631579, OverallDataRate, 17.142857142857142, Fairness, 0.7346938775510203
+MEDAGame:, User set, 40, Energy Consumption, 3857.3090966382097, User_allo_ratio, 0.975,DecisionIter,39.0,Time,29.0, SystemCost, 0.23907738095238099, Server_ratio, 0.6428571428571429, OverallDataRate, 19.5, Fairness, 0.9506249999999999
+Set#3,the change of available capacity
+MEDAGame:, Capacity set, 1, Energy Consumption, 0.0, User_allo_ratio, 0.0,DecisionIter,0.0,Time,0.0, SystemCost, NaN, Server_ratio, 0.0, OverallDataRate, 0.0, Fairness, NaN
+MEDAGame:, Capacity set, 2, Energy Consumption, 448.78344873422895, User_allo_ratio, 0.1,DecisionIter,2.0,Time,0.0, SystemCost, 0.6966666666666667, Server_ratio, 0.2, OverallDataRate, 2.0, Fairness, 0.010000000000000002
+MEDAGame:, Capacity set, 3, Energy Consumption, 1501.7949263263415, User_allo_ratio, 0.65,DecisionIter,13.0,Time,4.0, SystemCost, 0.5425, Server_ratio, 0.7, OverallDataRate, 13.0, Fairness, 0.42250000000000004
+MEDAGame:, Capacity set, 4, Energy Consumption, 1495.9693712205424, User_allo_ratio, 0.85,DecisionIter,17.0,Time,4.0, SystemCost, 0.37583333333333335, Server_ratio, 0.7, OverallDataRate, 17.0, Fairness, 0.7224999999999999
+MEDAGame:, Capacity set, 5, Energy Consumption, 1541.6455969053056, User_allo_ratio, 1.0,DecisionIter,20.0,Time,6.0, SystemCost, 0.2333333333333333, Server_ratio, 0.7, OverallDataRate, 20.0, Fairness, 1.0
+MEDAGame:, Capacity set, 6, Energy Consumption, 1022.7515978121818, User_allo_ratio, 0.65,DecisionIter,13.0,Time,2.0, SystemCost, 0.47583333333333333, Server_ratio, 0.5, OverallDataRate, 13.0, Fairness, 0.42250000000000004
+MEDAGame:, Capacity set, 7, Energy Consumption, 948.6342622980708, User_allo_ratio, 1.0,DecisionIter,20.0,Time,7.0, SystemCost, 0.16666666666666666, Server_ratio, 0.5, OverallDataRate, 20.0, Fairness, 1.0
+MEDAGame:, Capacity set, 8, Energy Consumption, 1165.0295642622957, User_allo_ratio, 1.0,DecisionIter,20.0,Time,5.0, SystemCost, 0.16666666666666666, Server_ratio, 0.5, OverallDataRate, 20.0, Fairness, 1.0
