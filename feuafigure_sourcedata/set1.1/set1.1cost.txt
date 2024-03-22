@@ -1,0 +1,93 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.ticker as mtick
+
+
+nSetSize = 5
+dSetSize = 5
+fSetSize = 5
+
+nX= np.arange(nSetSize)
+dX= np.arange(dSetSize)
+fX= np.arange(fSetSize)
+
+fig = plt.figure(figsize=(15, 8), dpi=72, facecolor="none")
+ax = plt.subplot(111)
+
+nGroup_labels = ['2', '4', '6', '8', '10','12', '14', '16']
+dGroup_labels = ['5', '10', '15', '20', '25','30','35','40']
+fGroup_labels = ['1','2', '3', '4', '5', '6','7','8']
+
+markers = ['^', 'X', 'o', 'p', 's','\']
+
+#plt.plot(nGroup_labels , label = 'FEUA-OPT', marker = '^', color = '#FFCD00FF', linestyle='--')
+#plt.plot(nGroup_labels , label = 'FEUAGame', marker = 'X', color = '#CC0C00FF', linestyle='-')
+#plt.plot(nGroup_labels, label = 'MEDAGame', marker = 'o', color = '#84BD00FF', linestyle='-.')
+#plt.plot(nGroup_labels, label = 'TPDSGame', marker = 'p', color = '#5C88DAFF', linestyle=';')
+#plt.plot(nGroup_labels, label = 'Greedy', marker = 's', color = '#00B5E2FF', linestyle=',,')
+#plt.plot(nGroup_labels, label = 'Random', marker = '\', color = '#7C878EFF', linestyle='+')
+
+params = {'legend.fontsize': 25,
+          'legend.handlelength': 1.1}
+plt.rcParams.update(params)
+
+total_width, n = 1.5, 11
+width = total_width / n
+x = np.arange(nSetSize)
+
+FEUAOPT = (0.869,	0.7825,	0.589,	0.289,	0.256,	0.188650794,	0.1619,	0.1246)
+FEUAGame = (0.87,	0.7825,	0.68,	0.388333333,	0.34808769,	0.28297619,	0.222222222,	0.17777)
+MEDAGame = (0.875898334,	0.7825	,0.68	,0.404455,	0.3825,	0.351251632,	0.271388889,	0.2075
+)
+TPDSGame = (0.875898334,	0.7825,	0.68,	0.408333333,	0.3825	,0.368888889,	0.331251632,	0.2575
+)
+IoTJ2022 = (0.874,	0.7825,	0.68,	0.424167	,0.393333333,	0.376055414,	0.333333333,	0.270833333
+)
+TGCN2021 = (0.874,	0.7825,	0.68,	0.434167	,0.395333333,	0.376055414,	0.333333333,	0.270833333)
+Greedy = (0.874122994,	0.7825,	0.68,	0.434167	,0.403333333,	0.366055414,	0.333333333,	0.270833333
+)
+Random = (0.873132561,	0.7825,	0.726944444,	0.610930673,	0.5625,	0.491071429,	0.374444444,	0.348333333
+)
+
+plt.plot(nGroup_labels, FEUAOPT,  label='FEUA-OPT',  marker = '^', markersize = '35', color = '#FFCD00FF',  markerfacecolor='#FFCD00FF', linestyle='--', linewidth='5')
+plt.plot(nGroup_labels, FEUAGame,  label = 'FEUAGame', marker = 'x',  markersize = '35', color = '#CC0C00FF', markerfacecolor='#CC0C00FF',  linestyle='--', linewidth='5')
+
+plt.plot(nGroup_labels, MEDAGame, label = 'TMC2022', marker = 'v',  markersize = '35', color = '#84BD00FF', markerfacecolor='#84BD00FF',linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, TPDSGame, label = 'TPDS2020', marker = '*',  markersize = '35',  color = '#5C88DAFF', markerfacecolor='#5C88DAFF',linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, IoTJ2022, label = 'IoTJ2022', marker = 'p',  markersize = '35', color = '#F18A85',markerfacecolor='#F18A85', linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, TGCN2021, label = 'TGCN2021', marker = 'h',  markersize = '35',  color = '#634490', markerfacecolor='#634490',linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, Greedy, label = 'Greedy', marker = 'p',  markersize = '35', color = '#00B5E2FF',markerfacecolor='#00B5E2FF', linestyle='-.', linewidth='5')
+plt.plot(nGroup_labels, Random , label = 'Random ', marker = 'h',  markersize = '35',  color = '#7C878EFF', markerfacecolor='#7C878EFF',linestyle='-.', linewidth='5')
+
+# cost: 1 - 17 (n), 1 - 7 (d)
+# benefit per replica: 10 - 40, 30 - 150, 20 - 80(d)  10 - 25, 20 - 120, 20 - 45 (n)
+# execution time: 0 - 5(n)   0 - 0.05(d)
+
+# x lables: The number of edge servers           Edge density
+# y labels: Execution Time (s)      Benefits per replica     The cost of caching data
+
+#plt.ylim(0.05, 0.275)
+
+plt.xlabel(u"Number of edge servers", fontsize=35)
+plt.ylabel(u"Overall System Cost", fontsize=35)
+
+plt.tick_params(labelsize=40)
+
+plt.legend()
+
+plt.tight_layout()
+plt.grid(True)
+
+foo_fig = plt.gcf()
+foo_fig.savefig('C:\\figures\\1-1cost.eps',
+                format='eps', dpi=1000)
+foo_fig.savefig('C:\\figures\\1-1cost.png',
+                format='eps', dpi=200)
+
+
+plt.show()
+
+
+
+
+
